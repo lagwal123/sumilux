@@ -924,17 +924,6 @@ padding: 20px 0px;
   .f-head{
     position: relative;
   }
-  .f-head i {
-    border: solid blue;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    padding-left: 13px;
-    padding-top: 12px;
-    position: absolute;
-    top: -15px;
-    left: 325px;
-}
     .fashion-head{ 
       width: 80%;
     }
@@ -970,6 +959,7 @@ padding: 20px 0px;
         top: -20px;
         background: #dddd;
         transform: rotate(-45deg);
+        color:black;
     }
 .hide_arrow:hover {
         transform: none;
