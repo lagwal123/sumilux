@@ -921,9 +921,11 @@ padding: 20px 0px;
       margin-top: 8px;
       margin-left: 10px;
   }
-  .f-head{
-    position: relative;
-  }
+ .f-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
     .fashion-head{ 
       width: 80%;
     }
@@ -960,6 +962,7 @@ padding: 20px 0px;
         background: #dddd;
         transform: rotate(-45deg);
         color:black;
+        transition: 0.2s;
     }
 .hide_arrow:hover {
         transform: none;
