@@ -958,10 +958,28 @@ padding: 20px 0px;
       font-size: 13px;
       color:#4f4e4e; ;
     }
+    .hide_arrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 66666;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        background: #dddd;
+        transform: rotate(-45deg);
+    }
+.hide_arrow:hover {
+        transform: none;
+        background: black;
+        color:white;
+    }  
     .fashion:hover img{
       transform: scale(1.2);
     }                                              /* BLOGS / JOURNALS SECTION ENDS */
-                                                   /*FOOTER SECTION STARTS */
+                                                  /*FOOTER SECTION STARTS */
    .footer-cta{
     background-color:#f5f5f5 ;
     padding: 100px 0px;
