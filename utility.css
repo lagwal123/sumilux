@@ -1,0 +1,36 @@
+ .d-flex{
+    display: flex;
+ }
+ .jcsb{
+    justify-content: space-between;
+ }
+ .gap{
+  gap: 20px;
+ }
+ .black-btn{
+    padding: 15px 25px;
+   background-color: black;
+   color: white;
+   border-radius: 50px;
+   border: none; 
+ }
+ .white-btn{
+   background-color:white;
+   color: black;
+   border-radius: 50px;
+   border: none; 
+   box-shadow: 2px 2px 5px rgb(174, 173, 173);
+ }
+  .margin{
+    margin: 100px 0px;
+  }
+  .bgcw{
+    background-color: white;
+    width: 100%;
+  }
+   .fwrap{
+    flex-wrap:nowrap;
+   }
+   .gap10{
+    gap: 10px;
+   }
