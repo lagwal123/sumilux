@@ -31,6 +31,9 @@
    .fwrap{
     flex-wrap:nowrap;
    }
+.flex_wrap{
+ flex-wrap:wrap;
+}
    .gap10{
     gap: 10px;
    }
